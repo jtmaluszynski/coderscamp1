@@ -127,8 +127,8 @@ p:first-of-type {
     column-rule: 1px solid var(--main-detail-color);*/
 }
 
-/*:not(:last-child)*/.section--long-text::after {
-    margin: 1.5em 2em;
+.section--long-text::after {
+    margin: 1em 10% 1.5em;
     content: "";
     display: block;
     border-top: 1px solid #811;
