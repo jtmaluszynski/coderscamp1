@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--#include virtual="/layout/_head__.ssi" -->
+</head>
+
+<body class="backdrop">
+    <header id="page-header">
+        <!--#include virtual="/layout/_header.shtml" -->
+    </header>
+
+    <main>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+
+</html>

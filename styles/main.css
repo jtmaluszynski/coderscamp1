@@ -1,0 +1,759 @@
+:root {
+    --backdrop-color: #000;
+
+    --main-background-color: #111;
+    --main-detail-color: #811;
+    --main-text-color: #bbb;
+
+    --secondary-background-color: #a09080;
+    --secondary-text-color: #161616;
+
+    --max-display-width: 70rem;
+    --tiny-screen-threshold: 600px;
+}
+
+
+
+/*
+    ===== GENERAL PAGE STYLES =====
+*/
+:root {
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+@media only screen and (max-width: 400px) {
+    :root {
+        font-size: 15px;
+    }
+}
+/*scalable font to allow the layout to scale on huge viewports*/
+@media only screen and (min-width: 1800px){
+    :root {
+        font-size: 1vw;
+    }
+}
+
+body {
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background: #000;
+    background: var(--backdrop-color);
+    color: #bbb;
+    color: var(--main-text-color);
+}
+
+body::-webkit-scrollbar {
+    width: 0.3rem;
+    height: 0.3rem;
+}
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px var(--main-background-color);
+}
+body::-webkit-scrollbar-thumb {
+  background: linear-gradient(#00000000 -10%,var(--main-detail-color) 70%,#00000000 105%);
+}
+
+main {
+    width: 100%;
+    max-width: 70rem;
+    max-width: var(--max-display-width);
+    background: #000;
+    background: var(--backdrop-color);
+}
+
+h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    padding-bottom: 0.5em;
+}
+
+.main__section {
+    background: #111;
+    background: var(--main-background-color);
+    border-radius: 1.5em;
+    margin: 0 1em 0.75em;
+
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+}
+@media only screen and (max-width: 400px) {
+    .main__section{
+        margin: 0 0 1em;
+    }
+}
+
+.article--standard{
+    width: 100%;
+    padding: 0 1.5em 1em;
+}
+
+p {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    text-indent: 1.5em;
+    text-align: justify;
+    font-weight: 400;
+    font-family: 'Roboto Slab', serif;
+}
+
+p:first-of-type {
+    margin-top: 0;
+}
+
+.section--long-text {
+    width: 100%;
+    /*column-width: 25em;
+    column-gap: 1.5em;
+    column-rule: 1px solid #811;
+    column-rule: 1px solid var(--main-detail-color);*/
+}
+
+/*:not(:last-child)*/.section--long-text::after {
+    margin: 1.5em 2em;
+    content: "";
+    display: block;
+    border-top: 1px solid #811;
+    border-top: 1px solid var(--main-detail-color);
+}
+
+.main__section > .section__header{
+    width: 100vw;
+    background: #811;
+    padding-left: 2em;
+    font-family: 'Fredericka the Great', cursive;
+    font-weight: 400;
+    font-family: 'Roboto', serif;
+    font-weight: 500;
+    order: -2;
+}
+
+
+/*
+    ===== WEBPAGE HEADER STYLES =====
+*/
+
+#page-header {
+    display: -ms-grid;
+    display: grid;
+    width: 100%;
+    background: #000;
+    background: var(--backdrop-color);
+    -ms-grid-columns: 70vw 30vw;
+    grid-template-columns: 1fr 30vw;
+    -ms-grid-rows: auto auto;
+    grid-template-rows: repeat(2, fit-content());
+}
+/*A little extra rule to make IE 11 behave before we get to the actual small screen threshold.*/
+@media only screen and (max-width: 650px){
+    #page-header {
+        -ms-grid-columns: auto 30vw;
+    }
+}
+
+#page-header .header__left {
+    display: none;
+}
+
+#page-header .header__top {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/span 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/span 1;
+    background: #000;
+    background: var(--backdrop-color);
+    position: relative;
+    z-index: 2;
+}
+
+#page-header .header__right {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    grid-row: 1/span 2;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/span 1;
+    position: relative;
+    z-index: 2;
+
+    width: 30vw;
+    height: 18vw;
+    min-width: 150px;
+    min-height: 90px;
+    background: #000 url("../images/logo1-short.jpg") no-repeat left top;
+    background: var(--backdrop-color) url("../images/logo1-short.jpg") no-repeat left top;
+    background-size: contain;
+}
+
+#page-header .header__bottom {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2/span 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/span 1;
+    position: relative;
+    z-index: 1;
+}
+
+#page-header:before{
+    display: block;
+    content: "";
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/span 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-column: 1/span 2;
+    position: relative;
+    z-index: 1;
+    background: #000;
+    background: var(--backdrop-color);
+}
+
+#page-header .header__top .title {
+    margin-top: 0.7em;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding-left: 6vw;
+    padding-right: 1.4vw;
+    font-size: 5vw;
+    text-align: right;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Special Elite', cursive;
+}
+
+@media only screen and (max-width: 600px) {
+    #page-header{
+        -ms-grid-columns: 70vw auto;
+    }
+
+    #page-header .header__top {
+        -ms-grid-row: 1;
+        -ms-grid-row-span: 1;
+        grid-row: 1/span 1;
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 1;
+        grid-column: 1/span 1;
+    }
+
+    #page-header .header__right {
+        -ms-grid-row: 1;
+        -ms-grid-row-span: 1;
+        grid-row: 1/span 1;
+        -ms-grid-column: 2;
+        -ms-grid-column-span: 1;
+        grid-column: 2/span 1;
+    }
+
+    #page-header .header__top .title{
+        font-size: 26px;
+    }
+    
+    #page-header .header__bottom {
+        -ms-grid-row: 2;
+        -ms-grid-row-span: 1;
+        grid-row: 2/span 1;
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 2;
+        grid-column: 1/span 2;
+        width: 100vw;
+    }
+}
+@media only screen and (max-width: 400px) {
+    #page-header .header__top .title{
+        padding-left: 2;
+    }
+}
+
+
+/*
+    ====== HEADER NAVIGATION STYLES ======
+*/
+
+#page-header .nav-list{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    position: relative;
+    list-style-type: none;
+}
+
+#page-header .nav-list.top-level{
+    justify-content: flex-end;
+    padding-right: 1vw;
+    padding-left: 1em;
+    background: #000;
+    background: var(--backdrop-color);
+}
+
+#page-header .nav-list.article-group{
+    flex-direction: column;    
+}
+
+#page-header .link-wrapper{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#page-header .link-wrapper .page-link{
+    display: block;
+    box-sizing: border-box;
+    min-width: 140px;
+    padding: 0.2em;
+    margin: 0.1em;
+    width: 10vw;
+    border: 1px solid #811;
+    border: 1px solid var(--main-detail-color);
+    background: #300;
+    /*background: linear-gradient(to right, var(--main-detail-color) 0%, #000000b0 90%, #00000000 100%);
+    */background: linear-gradient(to right, #811 0%, rgba(0,0,0,0.7) 90%, rgba(0,0,0,0) 100%);
+    text-decoration: none;
+    color: #bbb;
+    color: var(--main-text-color);
+
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif; 
+}
+
+#page-header .link-wrapper.article-group__item .page-link{
+    border-right-style: none;
+    border-left-style: none;
+}
+
+#page-header .nav-list.article-group{
+    flex-direction: column;
+    position: absolute;
+    border-left: 2px solid #811;
+    border-left: 4px double var(--main-detail-color);
+    z-index: -1;
+    transform: translateY(-102%);
+    opacity: 0;
+    transition: transform 0.4s ease-in-out 0.1s, opacity 0.4s linear 0.1s;
+}
+
+#page-header .category:hover .nav-list.article-group,
+#page-header .category:target .nav-list.article-group,
+#page-header .category__head:focus ~ .nav-list.article-group{
+    transform: translateY(0%);
+    opacity: 1;
+    transition: transform 0.3s ease-in-out, opacity 0.3s step-start;
+}
+/*REPEATED CODE
+    to avoid breaking the :hover behavior
+    for browsers not supporting :focus-within*/
+    #page-header .category:focus-within .nav-list.article-group {
+        transform: translateY(0%);
+        opacity: 1;
+        transition: transform 0.3s ease-in-out, opacity 0.3s step-start;
+    }
+/*END OF REPEATED CODE*/
+
+#page-header .link-wrapper.category{
+    position: relative;
+}
+
+/*
+CLICK DISABLER
+Click disabler covers the .category link and prevents
+browsers that can't handle :hover from clicking it directly
+ - instead the first click sends the browser to the category.
+Click disablers within targeted category aren't rendered,
+allowing the user to interact with the link below while making
+sure that the category has a selector that can be used as a basis
+for the drop-down behavior.
+*/
+    /*by default don't render*/
+    .click-disabler{
+        display: none;
+    }
+
+    #page-header .category .click-disabler{
+        display: block;
+        position: absolute;
+        box-sizing: border-box;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        margin:0;
+        z-index: 1;
+        opacity: 0;
+    }
+
+    #page-header .category:target .click-disabler,
+    #page-header .category:hover:not(:active) .click-disabler{
+        z-index: -1;
+        transition: none;
+    }
+    /*REPEATED CODE
+        to avoid breaking the :hover behavior
+        for browsers not supporting :focus-within*/
+        #page-header .category:focus-within .click-disabler{
+            z-index: -1;
+            transition: none;
+        }
+    /*END OF REPEATED CODE*/
+
+    /*smartphone browsers process :hover+"active behavior when pressing finger
+    on the screen. For these a delay is needed before disabling click-disabler
+    to allow it to actually be clicked*/
+    #page-header .category:hover:active .click-disabler{
+        z-index: -1;
+        transition: z-index 0.5s step-end;
+    }
+
+
+/*END OF CLICK DISABLER*/
+
+@media only screen and (max-width: 600px) {
+    #page-header .nav-list.top-level{
+        padding: 0;
+        margin: 0;
+        justify-content: center;
+    }
+
+    #page-header .link-wrapper .page-link{
+        width: 25vw;
+        min-width: 85px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #page-header .link-wrapper .page-link{
+        /*font-size: 0.8em;*/
+        font-weight: 400;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+}
+
+/*
+===== ANIMATED CARD STYLES =====
+(cards in their default card forms
++ related transitions)
+*/
+
+.card-table{
+    padding: 0;
+}
+.card-table > .section__header{
+    width:100%;
+    order: -3;
+}
+/*A pseudo-element to guarantee a solo position
+for the chosen card even if it was not at 100% width*/
+.card-table::after{
+    content:"";
+    display: block;
+    width: 100%;
+    order: -1;
+}
+
+.card {
+    position: relative;
+    width: 200px;
+    min-width: 200px;
+    max-width: 200px;
+    height: 300px;
+    margin: 0.5em;
+    font-size: 17px;
+    box-sizing: border-box;
+    z-index: 0;
+    transition: transform 0.5s ease-in-out, z-index 0.5s step-end, max-width 0.5s ease-in-out 0.2s;
+}
+
+.card .face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 1.6em;
+    box-sizing: border-box;
+    padding: 10%;
+
+    width: 100%;
+    height: 100%;
+    border-color: #811;
+    border-color: var(--main-detail-color);
+    border-width: 0.2em;
+    border-style: solid;
+}
+
+.card .face.obverse {
+    background-color: #811;
+    background-color: var(--main-detail-color);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1;
+    transition: z-index 0.25s step-end;
+}
+
+/*the headline for obverse (the one with the picture)
+face of the card*/
+.card .face.obverse .card__header{
+    width: 100%;
+    /*min-height: 15%;*/
+    margin: 0;
+    padding: 0.5 0.2 1;
+    position: absolute;
+    left: 0;
+    top: 75%;
+    box-sizing: border-box;
+    font-size: 1em;
+    text-align: center;
+    padding-top: 0.3em;
+    background-color: rgba(32, 19, 19, 0.7);
+}
+
+.card .face.reverse {
+    background-color: #a09080;
+    background-color: var(--secondary-background-color);
+    color: #161616;
+    color: var(--secondary-text-color);
+    z-index: 0;
+    transform: rotateY(-180deg);
+}
+
+/*hide the article when in standard mode*/
+.card .face.reverse .section--long-text{
+    display: none;
+}
+
+.card .face.card-overlay {
+    z-index: 1;
+}
+
+/*counter-transformer class allows for more complex transitions
+by "undoing" changes from other card-manipulators but at a different timing*/
+.counter-transformer {
+    width: 100%;
+    height: 100%;
+    background: #00000000;
+    transition: transform 0.4s ease-in-out;
+}
+
+.card:hover {
+    transform: rotateY(180deg) scale(1.25) rotateZ(15deg);
+    z-index: 3;
+    transition: transform 0.5s ease-in-out, z-index 0.5s step-start;
+}
+
+.card:hover .face.obverse {
+    z-index: -1;
+}
+
+.card:hover .counter-transformer {
+    transform: rotateZ(-15deg) scale(0.8);
+    transition: transform 0.3s ease-in-out 0.2s;
+}
+
+/*REPEATED CODE
+    to avoid breaking the :hover behavior
+    for browsers not supporting :focus-within*/
+    .card:focus-within {
+        transform: rotateY(180deg) scale(1.25) rotateZ(15deg);
+        z-index: 1;
+        transition: transform 0.5s ease-in-out, z-index 0.5s step-start;
+    }
+
+    .card:focus-within .face.obverse {
+        z-index: -1;
+    }
+
+    .card:focus-within .counter-transformer {
+        transform: rotateZ(-15deg) scale(0.8);
+        transition: transform 0.3s ease-in-out 0.2s;
+    }
+/*END OF REPEATED CODE*/
+
+/*
+===== SPECIFIC CARD DEFINITIONS =====
+*/
+#card1 .face.obverse{
+    background-image: url("../images/portrait01.jpg");
+}
+#card2 .face.obverse{
+    background-image: url("../images/portrait02.jpg");
+}
+#card3 .face.obverse{
+    background-image: url("../images/portrait03.jpg");
+}
+#card4 .face.obverse{
+    background-image: url("../images/portrait04.jpg");
+}
+#card5 .face.obverse{
+    background-image: url("../images/portrait05.jpg");
+}
+#card6 .face.obverse{
+    background-image: url("../images/portrait06.jpg");
+}
+#card7 .face.obverse{
+    background-image: url("../images/portrait07.jpg");
+}
+#card8 .face.obverse{
+    background-image: url("../images/portrait08.jpg");
+}
+#card9 .face.obverse{
+    background-image: url("../images/portrait09.jpg");
+}
+
+/*
+===== MODAL DISPLAY THE CARD AS ARTICLE =====
+(display in the extended form, as a full article
+rather than a card)
+*/
+.card-table .card:target {
+    width: 100%;
+    height: inherit;
+    max-width: 100%;
+    max-height: inherit;
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+    z-index: 3;
+    order: -2;
+    transition: none;
+    transform: none;
+}
+.card:target .counter-transformer {
+    transform: none;
+    transition: none;
+
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    
+    /*animation: put-on-table1 0.8s cubic-bezier(.85,-0.85,.46,1.19);*/
+}
+
+.card:target .face.reverse {
+    border: none;
+    position: relative;
+    height: auto;
+    width: 500px;
+    min-width: 500px;
+    flex-grow: 1;
+    padding: 1em 1.5em;
+    transform: none;
+    overflow: hidden;
+    
+    animation: fade-in 0.5s ease-in;
+}
+.card:target .face.reverse::after {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background: linear-gradient(rgba(160, 144, 128,0) -10%,0%,#111 10%);
+    /*rgba(160, 144, 128,1)*/
+    opacity: 0;
+
+    animation: drag-across 1s linear;
+}
+
+/*hide the card-back summary of the article*/
+.card:target .face.reverse .section--summary{
+    display: none;
+}
+
+/*show the contents of the article*/
+.card:target .face.reverse .section--long-text{
+    display: block;
+}
+
+/*remove the overlay*/
+.card:target .face.card-overlay {
+    display: none;
+}
+
+/*the obverse face of the card (picture and headline)*/
+.card:target .face.obverse {
+    position: relative;
+    padding: 0;
+    width: 200px;
+    min-width: 200px;
+    max-width: 200px;
+    height: 300px;
+    margin: 0 0.5em 0.5em;
+    z-index: 1;
+    transform: none;
+    flex-grow: 0;
+
+    animation: put-on-table1 0.4s cubic-bezier(0.6,-0.1,0.6,1);
+}
+
+@media only screen and (max-width: 1000px) {
+    .card:target .face.reverse {
+        min-width: auto;
+    }
+}
+
+/*
+===== THE ANIMATIONS FOR ADVANCED CARD TURNING =====
+*/
+
+/*the animation for putting a card on the table*/
+@keyframes put-on-table1 {
+    0% {
+        transform-origin: 200% 200%;
+        transform: rotateX(20deg) rotateY(-40deg) rotateZ(-5deg);
+    }
+    100%{
+        transform: none;
+    }
+}
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    80%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes drag-across {
+    0% {
+        transform: none;
+        opacity: 1;
+    }
+    50%{
+        transform: none;
+    }
+    100%{
+        transform: translateY(110%);
+        opacity: 1;
+    }
+}

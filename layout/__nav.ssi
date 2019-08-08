@@ -1,0 +1,50 @@
+<ul class="nav-list top-level">
+    <li class="link-wrapper category" id="cat1">
+        <a class="page-link category__head" id="introduction" href="../index.html">Introduction</a>
+        <a class="click-disabler" href="#cat1" tabindex="-1"></a>
+
+        <ul class="nav-list article-group">
+            <li class="link-wrapper article-group__item">
+                <a class="page-link" id="m" href="#">Mock</a>
+            </li>
+            <li class="link-wrapper article-group__item">
+                <a class="page-link" id="mmm" href="#">Moock</a>
+            </li>
+        </ul>
+    </li>
+    <li class="link-wrapper category" id="cat2">
+        <a class="page-link category__head" id="world" href="../pages/world.shtml">World</a>
+        <a class="click-disabler" href="#cat2" tabindex="-1"></a>
+
+        <ul class="nav-list article-group">
+            <li class="link-wrapper article-group__item">
+                <a class="page-link" id="cursed" href="#">Mocked and Mocked</a>
+            </li>
+            <li class="link-wrapper article-group__item">
+                <a class="page-link" id="organizations" href="../pages/organizations.shtml">Organizations</a>
+            </li>
+            <li class="link-wrapper article-group__item">
+                <a class="page-link" id="personages" href="../pages/personages.shtml">People of note</a>
+            </li>
+            <li class="link-wrapper article-group__item">
+                <a class="page-link" id="mm1" href="#">Mock</a>
+            </li>
+        </ul>
+    </li>
+    <li class="link-wrapper category" id="cat3">
+        <a class="page-link category_head" id="rules" href="../pages/rules.shtml">Rules</a>
+        <a class="click-disabler" href="#cat3" tabindex="-1"></a>
+
+        <ul class="nav-list article-group">
+            <li class="link-wrapper article-group__item">
+                <a class="page-link" id="m1" href="#">Mock</a>
+            </li>
+            <li class="link-wrapper article-group__item">
+                <a class="page-link" id="mmm1" href="#">Mock mock mock</a>
+            </li>
+            <li class="link-wrapper article-group__item">
+                <a class="page-link" id="mm1" href="#">Mock</a>
+            </li>
+        </ul>
+    </li>
+</ul>

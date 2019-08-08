@@ -1,0 +1,14 @@
+<div class="header__left">
+</div>
+<div class="header__top">
+    <h1 class="title">
+        Wonder-full World
+    </h1>
+</div>
+<div class="header__bottom nav-container">
+    <nav class="header__nav">
+        <!--#include virtual="/layout/__nav.ssi" -->
+    </nav>
+</div>
+<div class="header__right">
+</div>

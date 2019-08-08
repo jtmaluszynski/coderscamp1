@@ -1,0 +1,289 @@
+<section class="main__section card-table">
+    <h2 class="section__header">Notable people of Wonder-full World</h2>
+    <article class="card card-manipulator" id="card1">
+        <div class="card-manipulator counter-transformer">
+            <div class="face obverse">
+                <h3 class="card__header">Amanda Stannis</h3>
+            </div>
+            <div class="face reverse">
+                <section class="section--summary">
+                    A pyrokinetic, pyromaniac and and overall a person you shouldn't get involved with.
+                </section>
+                <section class="section--long-text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi gravida posuere lobortis.
+                        Curabitur tincidunt tincidunt justo sit amet interdum. Aliquam placerat odio arcu, sit amet
+                        maximus massa tincidunt tempus. Mauris commodo, quam nec luctus luctus, erat felis sodales nisl,
+                        eget euismod augue ex venenatis nulla. Nam in hendrerit tortor. Proin volutpat vehicula
+                        sollicitudin. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+                        himenaeos. In ut dui turpis. Duis consequat ac massa in vestibulum. Praesent pharetra, nisl in
+                        facilisis volutpat, ante urna vehicula ligula, in faucibus ante felis nec lectus.
+                    </p>
+                </section>
+            </div>
+            <a class="face card-overlay" href="#card1">
+            </a>
+        </div>
+    </article>
+    <article class="card" id="card2">
+        <div class="card-manipulator counter-transformer">
+            <div class="face obverse">
+                <h3 class="card__header">Tabitha "Blackbird" Cook</h3>
+            </div>
+            <div class="face reverse">
+                <section class="section--summary">
+                    An ex-prostitute. Found out that killing people and leading a gang are more fulfilling.
+                </section>
+                <section class="section--long-text">
+                    <p>
+                        Maecenas scelerisque tincidunt lacus, sit amet facilisis augue pharetra sit amet. Proin et lorem
+                        eu metus sodales convallis vel eget eros. Quisque sit amet sem odio. Maecenas ac mattis eros.
+                        Sed aliquet nisl vel odio elementum pulvinar. Nunc ultrices justo erat, id commodo lorem euismod
+                        eu. Nam vitae mi tellus. Sed suscipit ultrices elit. Praesent sit amet erat velit. Mauris tempor
+                        sed mi in lobortis. Morbi euismod purus non justo sagittis, at hendrerit massa aliquet. Proin
+                        sapien ex, pharetra vel nisl et, sollicitudin luctus eros. Nulla volutpat mattis eros, at
+                        commodo urna eleifend in.
+                    </p>
+                    <p>
+                        Nulla id velit dui. Mauris aliquet at nibh at porttitor. Vivamus sagittis a dui ut luctus. Donec
+                        vel suscipit risus. Proin egestas nisl nunc, quis consequat urna convallis eget. Aliquam
+                        placerat placerat purus sit amet ornare. Interdum et malesuada fames ac ante ipsum primis in
+                        faucibus. Maecenas in tincidunt lacus. Aliquam bibendum ex sed sollicitudin ullamcorper. Morbi
+                        id sapien nisl. Curabitur id rutrum justo.
+                    </p>
+                    <p>
+                        Nullam est odio, posuere vel condimentum luctus, tempus non nisl. Etiam urna erat, laoreet vitae
+                        odio at, pharetra tempus lacus. Aenean at ultricies arcu, pharetra lobortis urna. Phasellus
+                        congue euismod hendrerit. Donec sed orci dignissim mi tristique lacinia sed sed sem. Vestibulum
+                        ultrices, lacus ut accumsan consequat, leo odio gravida enim, at gravida tortor velit vel leo.
+                        Sed vitae aliquet tortor. Vivamus venenatis risus ut vulputate volutpat. Cras tempus justo enim,
+                        id tempor mi pharetra vel.
+                    </p>
+                    <p>
+                        Curabitur ut semper eros. In sit amet dui non est pretium molestie. Proin quis nibh
+                        accumsan, dignissim purus vitae, iaculis orci. Vestibulum sed est ac est vulputate mattis.
+                        Proin mollis, nisi sed tristique tristique, orci nulla pulvinar risus, et interdum dolor
+                        nunc vitae quam. Proin tempor quis ante at consectetur. Sed vitae maximus nibh. Etiam ante
+                        urna, elementum non semper at, eleifend pellentesque dui. Etiam pellentesque ornare nisl ut
+                        faucibus. Pellentesque maximus ultrices magna vitae sodales. Cras bibendum lorem vehicula,
+                        vehicula lectus et, volutpat dui. Integer elit arcu, rhoncus nec cursus sed, semper a
+                        sapien. Donec est leo, imperdiet vel vehicula in, consequat ac sapien.
+                    <p>
+                </section>
+            </div>
+            <a class="face card-overlay" href="#card2">
+            </a>
+        </div>
+    </article>
+    <article class="card" id="card3">
+        <div class="card-manipulator counter-transformer">
+            <div class="face obverse">
+                <h3 class="card__header">John Martin Edwards Stephen Morgan</h3>
+            </div>
+            <div class="face reverse">
+                <section class="section--summary">
+                    Headhunter by trade, living for the thrill of life-and-death combat. He's a super-soldier and rarely finds his match. When someone <em>really</em> makes an impression, he's going to honor him by appending their name to his.
+                </section>
+                <section class="section--long-text">
+                    <p>Welcome to the world of true Wonders and adventure. A broken world where distrusted
+                        "Cursed"use,hide and tryto control their superpowers while dealing with everyday struggles of
+                        being as powerful as theyareunwanted. Aworld where the masters of their respective crafts are
+                        capable of defying probability to bringfortheffectsnormally only seen in movies or fairy tales.
+                        A world where our advanced technology, along withthesupposedlyunbreakable laws of physics it was
+                        based on, has failed humanity - and yet also a world wheregenius(ifslightly unstable) inventors
+                        are not only perfectly capable of building a working computer intheirgarage butcoul sds afs fa g
+                        a gad g dagf da ga dg da gd ga g fdg da gda g dg da gda g da ga g adg dg fgadg dag da g dag da
+                        gda g dag ad gad gf dfgd afgfdag dfda g ad gfdad literally set it up with anAI so advanced
+                        that... it might actually fail the Turing test - onpurpose,out of spite due to feeling hurt and
+                        insulted by having to take it in the first place.</p>
+                    <p>Welcome to the world of true Wonders and adventure. A broken world where distrusted
+                        "Cursed"use,hide and tryto control their superpowers while dealing with everyday struggles of
+                        being as powerful as theyareunwanted. Aworld where the masters of their respective crafts are
+                        capable of defying probability to bringfortheffectsnormally only seen in movies or fairy tales.
+                        A world where our advanced technology, along withthesupposedlyunbreakable laws of physics it was
+                        based on, has failed humanity - and yet also a world wheregenius(ifslightly unstable) inventors
+                        are not only perfectly capable of building a working computer intheirgarage butcoul sds afs fa g
+                        a gad g dagf da ga dg da gd ga g fdg da gda g dg da gda g da ga g adg dg fgadg dag da g dag da
+                        gda g dag ad gad gf dfgd afgfdag dfda g ad gfdad literally set it up with anAI so advanced
+                        that... it might actually fail the Turing test - onpurpose,out of spite due to feeling hurt and
+                        insulted by having to take it in the first place.</p>
+                </section>
+            </div>
+            <a class="face card-overlay" href="#card3">
+            </a>
+        </div>
+    </article>
+    <article class="card" id="card4">
+        <div class="card-manipulator counter-transformer">
+            <div class="face obverse">
+                <h3 class="card__header">Elisabeth L'Arois</h3>
+            </div>
+            <div class="face reverse">
+                <section class="section--summary">
+                    A free-spirited girl. Literally. She has no body and lives on by sucking out the life-force of victims she manages to possess.
+                </section>
+                <section class="section--long-text">
+                    <p> Suspendisse tincidunt porta imperdiet. Morbi eget lacinia lectus. Ut lobortis nunc in sapien
+                        tristique malesuada. Vestibulum in accumsan ex. Vivamus ac fringilla enim, in euismod tellus.
+                        Vivamus ullamcorper ante odio, sed dignissim est sagittis id. Aenean eget sapien sed urna
+                        venenatis semper. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+                    </p>
+                    <p>
+                        Etiam maximus magna ac sapien feugiat varius. Proin porta pellentesque nunc sed dapibus.
+                        Vestibulum vehicula fringilla elementum. Fusce condimentum mauris id fermentum commodo. Interdum
+                        et malesuada fames ac ante ipsum primis in faucibus. Proin vel sem eu massa convallis
+                        condimentum et quis dolor. Nam ut feugiat elit. Nam efficitur neque at velit feugiat, porttitor
+                        efficitur nulla suscipit. Nullam at enim ullamcorper, imperdiet risus in, suscipit sem.
+                    </p>
+                </section>
+            </div>
+            <a class="face card-overlay" href="#card4">
+            </a>
+        </div>
+    </article>
+    <article class="card" id="card5">
+        <div class="card-manipulator counter-transformer">
+            <div class="face obverse">
+                <h3 class="card__header">Kurt "Spots" Neumann</h3>
+            </div>
+            <div class="face reverse">
+                <section class="section--summary">
+                    It's not even superpowers - he's just so dedicated to peeping that he learned to see right through walls.
+                </section>
+                <section class="section--long-text">
+                    <p>
+                        Nullam est odio, posuere vel condimentum luctus, tempus non nisl. Etiam urna erat, laoreet vitae
+                        odio at, pharetra tempus lacus. Aenean at ultricies arcu, pharetra lobortis urna. Phasellus
+                        congue euismod hendrerit. Donec sed orci dignissim mi tristique lacinia sed sed sem. Vestibulum
+                        ultrices, lacus ut accumsan consequat, leo odio gravida enim, at gravida tortor velit vel leo.
+                        Sed vitae aliquet tortor. Vivamus venenatis risus ut vulputate volutpat. Cras tempus justo enim,
+                        id tempor mi pharetra vel.
+                    </p>
+                </section>
+            </div>
+            <a class="face card-overlay" href="#card5">
+            </a>
+        </div>
+    </article>
+    <article class="card" id="card6">
+        <div class="card-manipulator counter-transformer">
+            <div class="face obverse">
+                <h3 class="card__header">"The Runner"</h3>
+            </div>
+            <div class="face reverse">
+                <section class="section--summary">
+                    Well, he <em>is</em> kind of fast.
+                </section>
+                <section class="section--long-text">
+                    <p>Proin non iaculis tortor. Nullam tincidunt lorem sed lectus laoreet, id lobortis orci auctor.
+                        Etiam sed porttitor leo. In ac erat in ipsum feugiat lobortis. Proin lacus urna, tristique id
+                        cursus suscipit, elementum porta metus. Curabitur sollicitudin tortor dapibus tincidunt
+                        vehicula. Pellentesque pretium gravida dolor bibendum commodo. Ut rutrum lectus et tortor
+                        pulvinar luctus. Praesent dictum tortor sit amet pharetra tincidunt. Integer lobortis sagittis
+                        massa viverra congue. Vestibulum aliquet nisi vitae ipsum ultrices, vitae varius ipsum
+                        scelerisque.
+                    </p>
+                </section>
+            </div>
+            <a class="face card-overlay" href="#card6">
+            </a>
+        </div>
+    </article>
+    <article class="card" id="card7">
+        <div class="card-manipulator counter-transformer">
+            <div class="face obverse">
+                <h3 class="card__header">Sarah L. Smith</h3>
+            </div>
+            <div class="face reverse">
+                <section class="section--summary">
+                    The girl that can't die. It's not like she's immune to wounds and sickness. She just can't die.
+                </section>
+                <section class="section--long-text">
+                    <p>Nulla rutrum tellus nec consequat pellentesque. Donec sem ligula, hendrerit ut augue in,
+                        elementum porta arcu. Etiam ut accumsan erat. Pellentesque quis nisi fermentum, dignissim ex eu,
+                        egestas lorem. Nullam iaculis ipsum in dui maximus, ac pretium mauris faucibus. Duis dapibus
+                        erat odio, auctor commodo lorem vestibulum sit amet. Proin vestibulum libero a arcu ornare, non
+                        consequat elit interdum. Etiam ac ante quis tortor ullamcorper mollis. Nulla pulvinar, augue
+                        quis lacinia feugiat, nisi lorem cursus ante, a consectetur nunc nisl sed elit. Vivamus quis
+                        arcu quis elit auctor facilisis tincidunt nec quam. Morbi vitae lectus convallis, faucibus
+                        turpis sit amet, venenatis sem. Nullam et enim dui. Quisque diam lacus, ultricies rutrum ante
+                        vitae, maximus egestas nibh. Donec pulvinar magna non augue rutrum efficitur.
+                    </p>
+                </section>
+            </div>
+            <a class="face card-overlay" href="#card7">
+            </a>
+        </div>
+    </article>
+    <article class="card" id="card8">
+        <div class="card-manipulator counter-transformer">
+            <div class="face obverse">
+                <h3 class="card__header">Adam "Smoker" Spencer</h3>
+            </div>
+            <div class="face reverse">
+                <section class="section--summary">
+                    Veteran soldier, ultimate mercenery, part-time terrorist.
+                </section>
+                <section class="section--long-text">
+                    <p>Cras nec consectetur eros. Sed molestie suscipit lobortis. Mauris fringilla sagittis elementum.
+                        Nunc eros velit, facilisis a interdum in, porttitor sit amet mi. Morbi non ligula sed arcu
+                        facilisis vestibulum quis a augue. Proin ullamcorper lacus ac euismod vestibulum. Proin congue
+                        leo ligula, id vehicula quam varius non. Donec quis libero arcu. Pellentesque id ullamcorper
+                        eros.</p>
+                </section>
+            </div>
+            <a class="face card-overlay" href="#card8">
+            </a>
+        </div>
+    </article>
+    <article class="card" id="card9">
+        <div class="card-manipulator counter-transformer">
+            <div class="face obverse">
+                <h3 class="card__header">Edna Royce</h3>
+            </div>
+            <div class="face reverse">
+                <section class="section--summary">
+                    The woman who talks to trees. Allegedly they do answer. Allegedly.
+                </section>
+                <section class="section--long-text">
+                    <p>Nam rhoncus semper dui eget sagittis. Fusce quis turpis pellentesque quam rutrum ornare a eget
+                        risus. Maecenas commodo nulla ut lectus pulvinar gravida. Aenean porta nisi non blandit
+                        hendrerit. Donec arcu nibh, blandit ut tempor sodales, cursus in nibh. Suspendisse potenti.
+                        Nulla mattis felis vitae sem porta luctus. Pellentesque at auctor ex. Pellentesque nec eros sed
+                        ante pellentesque eleifend eu id ante. Donec urna sem, consequat id nunc in, consectetur
+                        interdum est. Sed porttitor maximus libero et ullamcorper. Aliquam id quam ante.</p>
+                    <p>Maecenas non sollicitudin odio. In maximus dapibus lectus, in lobortis elit varius at. Lorem
+                        ipsum dolor sit amet, consectetur adipiscing elit. Fusce fermentum libero nunc, id vehicula
+                        lacus fermentum vitae. Ut accumsan aliquet massa ut vestibulum. Fusce malesuada, nulla sit amet
+                        ultrices pellentesque, leo orci mattis orci, a varius justo dui a quam. Sed quis ullamcorper
+                        libero. Praesent vitae interdum nunc, et accumsan orci. Vivamus eleifend ex nec sem facilisis
+                        lacinia quis et metus. Donec velit enim, rhoncus sed tellus nec, venenatis vestibulum lorem.
+                        Duis tempor nibh nec mauris bibendum aliquam.</p>
+                </section>
+                <section class="section--long-text">
+                    <p>Aenean in tellus sed sapien suscipit semper vitae nec metus. Fusce consectetur accumsan
+                        elementum. Pellentesque tempus risus eu sem vestibulum, at congue ligula suscipit. Nunc mattis
+                        dolor eu neque blandit, ac maximus diam imperdiet. Maecenas pulvinar nisl augue, in vehicula
+                        diam ultricies vitae. Proin condimentum felis quis mauris pharetra, id mattis augue cursus.
+                        Integer lobortis quam felis, nec tristique felis vehicula non. Phasellus suscipit tortor velit,
+                        sit amet porta ipsum ornare eget. Phasellus vehicula malesuada elit, vel porta velit tempus et.
+                    </p>
+                    <p>Nulla malesuada ut lectus at molestie. Donec est tellus, viverra eget dignissim vitae, porttitor
+                        nec nibh. Duis eget nunc molestie, cursus tellus suscipit, tincidunt lorem. In in hendrerit
+                        nisi. Ut finibus, dolor luctus congue pellentesque, libero erat blandit eros, nec porttitor
+                        magna augue nec mauris. Vivamus hendrerit est vel nisl rhoncus malesuada. Suspendisse congue
+                        lacinia ipsum. Nunc pretium neque a risus porttitor rutrum. Vivamus ut tristique neque. Nunc
+                        pretium, quam vel consequat scelerisque, velit est semper est, nec placerat arcu quam et nisi.
+                        Fusce sollicitudin nec lorem rhoncus ornare. Sed volutpat euismod laoreet.</p>
+                    <p>Etiam cursus malesuada felis at iaculis. Nam tincidunt tempor lectus non volutpat. Proin et
+                        tincidunt felis. Phasellus sit amet consequat enim, vel scelerisque nunc. Lorem ipsum dolor sit
+                        amet, consectetur adipiscing elit. Mauris tempus vel lacus accumsan aliquam. Integer bibendum in
+                        lorem non pulvinar. Etiam semper ipsum lorem, vitae vestibulum felis pulvinar quis. Maecenas
+                        pulvinar felis ac sem ultricies, eu mattis orci hendrerit. Donec pulvinar cursus viverra. Sed
+                        ornare convallis purus, sit amet aliquet urna consectetur in.</p>
+                </section>
+            </div>
+            <a class="face card-overlay" href="#card9">
+            </a>
+        </div>
+    </article>
+</section>
