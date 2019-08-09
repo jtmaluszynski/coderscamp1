@@ -26,4 +26,4 @@
 
 <!--===STYLESHEETS===-->
 
-    <link rel="stylesheet" href="/styles/main.css" type="text/css">
+    <link rel="stylesheet" href="./styles/main.css" type="text/css">

@@ -64,12 +64,21 @@ body::-webkit-scrollbar-thumb {
   background: linear-gradient(#00000000 -10%,var(--main-detail-color) 70%,#00000000 105%);
 }
 
-main {
+main,
+.footer {
     width: 100%;
     max-width: 70rem;
     max-width: var(--max-display-width);
     background: #000;
     background: var(--backdrop-color);
+}
+
+.footer {
+    text-align: center;
+    padding: 1.5em;
+    color: #811;
+    color: var(--main-detail-color);
+    opacity: 0.5;
 }
 
 h3{

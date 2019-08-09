@@ -1,6 +1,6 @@
 <ul class="nav-list top-level">
     <li class="link-wrapper category" id="cat1">
-        <a class="page-link category__head" id="introduction" href="../index.html">Introduction</a>
+        <a class="page-link category__head" id="introduction" href="./index.html">Introduction</a>
         <a class="click-disabler" href="#cat1" tabindex="-1"></a>
 
         <ul class="nav-list article-group">
@@ -13,7 +13,7 @@
         </ul>
     </li>
     <li class="link-wrapper category" id="cat2">
-        <a class="page-link category__head" id="world" href="../pages/world.html">World</a>
+        <a class="page-link category__head" id="world" href="./world.html">World</a>
         <a class="click-disabler" href="#cat2" tabindex="-1"></a>
 
         <ul class="nav-list article-group">
@@ -21,10 +21,10 @@
                 <a class="page-link" id="cursed" href="#">Mocked and Mocked</a>
             </li>
             <li class="link-wrapper article-group__item">
-                <a class="page-link" id="organizations" href="../pages/organizations.html">Organizations</a>
+                <a class="page-link" id="organizations" href="./organizations.html">Organizations</a>
             </li>
             <li class="link-wrapper article-group__item">
-                <a class="page-link" id="personages" href="../pages/personages.html">People of note</a>
+                <a class="page-link" id="personages" href="./personages.html">People of note</a>
             </li>
             <li class="link-wrapper article-group__item">
                 <a class="page-link" id="mm1" href="#">Mock</a>
@@ -32,7 +32,7 @@
         </ul>
     </li>
     <li class="link-wrapper category" id="cat3">
-        <a class="page-link category_head" id="rules" href="../pages/rules.html">Rules</a>
+        <a class="page-link category_head" id="rules" href="./rules.html">Rules</a>
         <a class="click-disabler" href="#cat3" tabindex="-1"></a>
 
         <ul class="nav-list article-group">
