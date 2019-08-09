@@ -309,6 +309,11 @@ p:first-of-type {
     list-style-type: none;
 }
 
+#page-header .link-wrapper .page-link:hover,
+#page-header .link-wrapper .page-link:focus{
+    color: #fff;
+}
+
 #page-header .nav-list.top-level{
     justify-content: flex-end;
     padding-right: 1vw;
